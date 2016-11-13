@@ -1,0 +1,3 @@
+Otazka 1; odpoved 1
+otazka 2; odpoved 2
+
