@@ -19,9 +19,12 @@ void TestHandler::loadQuestionFile(QString path)
     QStringList l = s.split("\n", QString::SkipEmptyParts);
 
     foreach (QString line, l) {
-        QStringList a = line.split("; ", QString::KeepEmptyParts);
-        Question q(a[0], a[1]);
-        addQuestion(q);
+        if(line.left(2) != "//")
+        {
+            QStringList a = line.split("; ", QString::KeepEmptyParts);
+            Question q(a[0], a[1]);
+            addQuestion(q);
+        }
     }
 }
 

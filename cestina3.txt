@@ -19,14 +19,15 @@ Rimanka; Moravia
 Horalka; Moravia
 Gumy; Grillet
 Zarlivost; Grillet
+Sto roku samoty; Marquez
 Popraviste; Ajmatov
 Mistr a Marketka; Bulgakov
 Jmeno ruze; Eco
-Nabokov; Lolita
-Souostrovi Gulag; Solženicyc
+Lolita; Nabokov
+//Souostrovi Gulag; Solženicyc
 Krvave jahody; Kupka
 1948; Orwell
 Farma zvirat; Orwell
 Cekani na Godota; Beckett
-Plesata Zpevacka; Ionesco
-Fyzikove; Durrenmatt
+//Plesata Zpevacka; Ionesco
+//Fyzikove; Durrenmatt

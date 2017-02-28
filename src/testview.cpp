@@ -31,6 +31,7 @@ void TestView::on_pBSubmit_clicked()
     if(answered)
     {
         ui->lEAnswer->setText("");
+        ui->lStatus->setStyleSheet("");
         showNewQuestion();
     }
     else
@@ -39,11 +40,13 @@ void TestView::on_pBSubmit_clicked()
         if(ui->lEAnswer->text().toLower() == currentQuestion.answer.toLower())
         {
             ui->lStatus->setText("Correct!\n The answer is: " + currentQuestion.answer+".");
+            ui->lStatus->setStyleSheet("QLabel { color : green; }");
             test->putAnswer(currentQuestion.id, true);
         }
         else
         {
             ui->lStatus->setText("Wrong!\n The answer is: " + currentQuestion.answer+".");
+            ui->lStatus->setStyleSheet("QLabel { color : red; }");
             test->putAnswer(currentQuestion.id, false);
         }
     }
