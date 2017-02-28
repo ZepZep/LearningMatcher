@@ -1,0 +1,25 @@
+Question
+    id
+    text
+    answer
+    
+    isChoosable
+    choices
+
+TestHandler
+    loadQuestionFile()
+    addQuestions()
+    
+    getQuestion()
+    putAnswer(id, correct)
+
+    displayProbsbilities()
+    displayCounts()
+    resetTest()
+
+    questions[]
+    probabilities[]
+    counts[]
+
+QuestionView
+    displayQuestion()
